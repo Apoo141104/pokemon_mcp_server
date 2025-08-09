@@ -87,7 +87,7 @@ The system follows a modular architecture with clear separation of concerns:
 ### Step 1: Clone and Setup
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Apoo141104/pokemon_mcp_server/tree/main
 cd pokemon-mcp-server
 
 # Create virtual environment

@@ -1,0 +1,60 @@
+{
+  "server": {
+    "name": "pokemon-battle-server",
+    "version": "1.0.0",
+    "description": "MCP server for Pokémon data and battle simulation",
+    "author": "AI Engineer Intern"
+  },
+  "api": {
+    "pokeapi_base_url": "https://pokeapi.co/api/v2",
+    "request_timeout": 10.0,
+    "max_concurrent_requests": 5,
+    "cache_size": 1000
+  },
+  "battle": {
+    "default_level": 50,
+    "max_turns": 100,
+    "random_factor_min": 0.85,
+    "random_factor_max": 1.0,
+    "status_effect_chances": {
+      "burn": 0.1,
+      "paralysis": 0.1,
+      "poison": 0.9
+    }
+  },
+  "data": {
+    "max_moves_per_pokemon": 20,
+    "include_sprites": true,
+    "cache_duration_minutes": 60
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "resources": {
+    "pokemon_data": {
+      "uri": "pokemon://data/all",
+      "name": "Pokémon Database",
+      "description": "Access to comprehensive Pokémon data including stats, types, abilities, and moves"
+    },
+    "type_chart": {
+      "uri": "pokemon://data/types",
+      "name": "Type Effectiveness Chart",
+      "description": "Pokémon type effectiveness multipliers for battle calculations"
+    }
+  },
+  "tools": {
+    "get_pokemon": {
+      "description": "Fetch comprehensive data for a specific Pokémon by name or ID",
+      "timeout": 10.0
+    },
+    "battle_simulate": {
+      "description": "Simulate a battle between two Pokémon with detailed battle mechanics",
+      "timeout": 30.0
+    },
+    "get_type_effectiveness": {
+      "description": "Get type effectiveness information for battle strategy",
+      "timeout": 1.0
+    }
+  }
+}

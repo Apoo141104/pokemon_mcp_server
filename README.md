@@ -279,8 +279,10 @@ The system includes a comprehensive 18x18 type effectiveness matrix:
 
 
 ### Example 2: Battle Simulation
-<img width="1084" height="711" alt="image" src="https://github.com/user-attachments/assets/879a3c5d-d03f-4396-ba0e-3a937c5c2d46" />
-<img width="1084" height="711" alt="image" src="https://github.com/user-attachments/assets/eb1f0c06-0c81-4cde-95e0-f67b0d5016b6" />
+<img width="1084" height="712" alt="image" src="https://github.com/user-attachments/assets/2752d554-1fb5-45f4-9ca6-73b5a6be1ca3" />
+<img width="1084" height="712" alt="image" src="https://github.com/user-attachments/assets/af0cc750-1028-4717-846d-bea06ccea5a9" />
+
+
 
 
 ### Example 3: Type Effectiveness

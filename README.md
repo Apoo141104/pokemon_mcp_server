@@ -274,55 +274,19 @@ The system includes a comprehensive 18x18 type effectiveness matrix:
 ## 💡 Examples
 
 ### Example 1: Pokemon Data Query
-```bash
-🧑 You: Tell me about Charizard
+<img width="1084" height="711" alt="image" src="https://github.com/user-attachments/assets/8b01683d-9078-4e5a-a235-da1492634a95" />
+<img width="1084" height="711" alt="image" src="https://github.com/user-attachments/assets/ab56f2dd-ccf6-4835-b6e3-cb7c34ca05c3" />
 
-🤖 Assistant: 🌟 **Charizard** (#006)
-
-🏷️ **Types:** Fire / Flying
-
-📊 **Base Stats:**
-   ❤️ HP: 78
-   ⚔️ Attack: 84
-   🛡️ Defense: 78
-   🔮 Sp. Attack: 109
-   🛡️ Sp. Defense: 85
-   💨 Speed: 100
-   📈 **Total: 534**
-
-⚡ **Abilities:** Blaze, Solar Power
-```
 
 ### Example 2: Battle Simulation
-```bash
-🧑 You: Simulate a battle between Garchomp and Gyarados
+<img width="1084" height="711" alt="image" src="https://github.com/user-attachments/assets/879a3c5d-d03f-4396-ba0e-3a937c5c2d46" />
+<img width="1084" height="711" alt="image" src="https://github.com/user-attachments/assets/eb1f0c06-0c81-4cde-95e0-f67b0d5016b6" />
 
-🤖 Assistant: **Battle Simulation: Garchomp vs Gyarados**
-==============================================
-
-### Battle Results
-**Gyarados emerges victorious**, defeating Garchomp in 1 turn.
-Gyarados wins with 44/95 HP, while Garchomp is knocked out with 0/108 HP.
-
-### Strategic Analysis
-- **Type advantages**: Gyarados's Water/Flying typing exploited Garchomp's weaknesses
-- **Move selection**: Gyarados's Thrash (120 power) overwhelmed Garchomp's defenses
-- **Speed factor**: Despite Garchomp's higher speed, Gyarados's power proved decisive
-```
 
 ### Example 3: Type Effectiveness
-```bash
-🧑 You: What types are super effective against Gyarados?
+<img width="1084" height="589" alt="image" src="https://github.com/user-attachments/assets/bbac98f7-d3ea-42f8-bbdb-665ad9788fd1" />
+<img width="1084" height="658" alt="image" src="https://github.com/user-attachments/assets/56dfed6a-c941-42c9-b0d3-046e60ab2d85" />
 
-🤖 Assistant: ⚡ **TYPE EFFECTIVENESS ANALYSIS**
-
-🎯 **Electric** → **Water + Flying**
-🔥 **Effectiveness:** 2x
-📈 **Result:** Super effective!
-💪 **Damage:** 200% of normal
-
-✅ **Strategy:** This is an excellent offensive choice! Use this type advantage!
-```
 
 ## 📁 File Structure
 
@@ -330,13 +294,10 @@ Gyarados wins with 44/95 HP, while Garchomp is knocked out with 0/108 HP.
 pokemon-mcp-server/
 ├── README.md                 # This comprehensive guide
 ├── requirements.txt          # Python dependencies
-├── config.json              # Server configuration
 ├── pokemon_mcp_server.py    # Main MCP server implementation  
 ├── client_mcp.py           # Groq-powered client interface
 ├── pokemon_data.py         # Pokemon data management classes
 ├── battle_simulator.py     # Advanced battle simulation engine
-└── logs/                   # Generated log files
-    └── pokemon_server.log
 ```
 
 ## 🔧 Technical Implementation
